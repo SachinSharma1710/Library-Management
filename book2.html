@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Subject name</th>
+                <th>Athour name </th>
+                <th>Total book</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Engineering Physics</td>
+                <td>A Ghatak</td>
+                <td>121</td>
+            </tr>
+            <tr>
+                <td>Mathametics-II</td>
+                <td>GB Thomas</td>
+                <td>134</td>
+            </tr>
+            <tr>
+                <td>Basic Mechanical Engineering</td>
+                <td>Nag PK</td>
+                <td>145</td>
+            </tr>
+            <tr>
+                <td>Basic Civil Engineering & Mechanics</td>
+                <td>R Nayaryan</td>
+                <td>161</td>
+            </tr>
+            <tr>
+                <td>Basic Computer Engineering </td>
+                <td>Rajesh K Shukla</td>
+                <td>124</td>
+            </tr>
+            <!-- and so on... -->
+        </tbody>
+    </table>
+    
+        <div class="container">
+
+    <form name="myform" method="post" action="book1.jsp">
+
+        <div class="row">
+
+            <div class="col">
+
+                <h3 class="title"></h3>
+
+                <div class="inputBox">
+                    <span>User Name :</span>
+                    <input type="text" placeholder="Shiv Choudhary" name="name">
+                </div>
+                <div class="inputBox">
+                    <span>Book Name :</span>
+                    <input type="text" placeholder="DC Agerwal" name="book">
+                </div>
+                <div class="inputBox">
+                    <span>Month Name :</span>
+                    <input type="text" placeholder="March" name="month">
+                </div>
+
+<a style="text-decoration: none;"><button class="submit-btn" id="signupBtn" onclick="myalert()">
+    Submit
+</button></a>
+     <script>
+         function myalert() {
+             alert("Submited!");
+         }
+     </script>   
+   </div>
+</body>
+</html>
